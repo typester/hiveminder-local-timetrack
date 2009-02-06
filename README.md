@@ -1,8 +1,11 @@
 This script set is for adding local time tracking feature to [Hiveminder](http://hiveminder.com/).
 
 Yeah, I know Hiveminder supports time tracking. But it doesn't work at offline.
-I sometimes place myself at offline, because working at online has a number of temptations, twitter/irc/im and so on..
+I sometimes place myself at offline, because working at online has a number of temptations, twitter/irc/im and so on.. That's why I want this.
 
+## Screenshot
+
+<a href="http://www.flickr.com/photos/typester/3257131671/" title="Hiveminder.app by typester, on Flickr"><img src="http://farm4.static.flickr.com/3347/3257131671_4449115c2c_o.png" width="505" height="554" alt="Hiveminder.app" /></a>
 
 ## Features
 
