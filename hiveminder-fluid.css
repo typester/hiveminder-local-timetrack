@@ -1,0 +1,27 @@
+div#info-wrapper {
+    display: none !important;
+}
+
+div#content-wrapper2 {
+    margin-left: 0px !important;
+}
+
+div#headers {
+    display: none !important;
+}
+
+.tasklist-fragment > .feed-list {
+    display: none !important;
+}
+
+div#footer {
+    display: none !important;
+}
+
+div#actions_container {
+    display: none !important;
+}
+
+h1.title {
+    display: none !important;
+}
