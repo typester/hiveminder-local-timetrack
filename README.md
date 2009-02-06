@@ -15,7 +15,7 @@ I sometimes place myself at offline, because working at online has a number of t
 ## Current issues
 
 * Currently it doesn't save elapsed time, so you lost it when reload page.
-
+* And also doesn't save it to official time record.
 
 ## How to use
 
