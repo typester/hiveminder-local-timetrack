@@ -129,7 +129,8 @@
 
         var div = $("<div>").css({
             "display": "block",
-            "overflow": "auto"
+            "overflow": "auto",
+            "float": "right"
         });
 
         $(".task_summary", this).after(div);
