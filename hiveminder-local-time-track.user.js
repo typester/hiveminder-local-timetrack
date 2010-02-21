@@ -116,7 +116,7 @@
         }
     };
 
-    $(".todo .task").each(function (i) {
+    $(".task_container").each(function (i) {
         var task = {
             obj : this,
             id  : $(".record_locator", this).text(),
@@ -132,7 +132,7 @@
             "overflow": "auto"
         });
 
-        $(".edit_context_menu", this).after(div);
+        $(".task_summary", this).after(div);
         div
         .append( start_button.clone().click(function () { start(task) }) )
         .append( stop_button.clone().click(stop) )
