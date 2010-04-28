@@ -113,6 +113,8 @@
             task.indicator.text( time_format(task.time) );
 
             setTimeout(arguments.callee, 200, task);
+        } else {
+            w.localStorage.setItem(task.id, task.time);
         }
     };
 
@@ -125,6 +127,13 @@
             running: false,
             indicator: indicator.clone()
         }
+        
+        if (w.localStorage.getItem(task.id)) {
+            var t = parseInt(w.localStorage.getItem(task.id));
+            task.time = t;
+            task.indicator.text(time_format(t));
+        }
+                                  
         tasks.push(task);
 
         var div = $("<div>").css({
