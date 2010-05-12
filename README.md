@@ -26,7 +26,7 @@ I sometimes place myself at offline, because working at online has a number of t
 
 * Setup hiveminder fluid app
 * Open the app and go preferences panel -> Userstyles, and copy 'hiveminder-fluid.css' and paste it there.
-* Copy `jgrowll.user.js` and `hiveminder-local-time-track.user.js` into `~/Library/Application Support/Fluid/SSB/{Your App Name/Userscripts/` and enable these.
+* Copy `*.user.js` into `~/Library/Application Support/Fluid/SSB/{Your App Name/Userscripts/` and enable these.
 
 ### For firefox users
 
