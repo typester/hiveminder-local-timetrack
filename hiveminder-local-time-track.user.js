@@ -114,7 +114,10 @@
 
             setTimeout(arguments.callee, 200, task);
         } else {
-            w.localStorage.setItem(task.id, task.time);
+            var expires = new Date();
+            expires.setFullYear(expires.getFullYear()+1);
+
+            GM_setValue(task.id, task.time, { expires:expires });
         }
     };
 
@@ -127,11 +130,11 @@
             running: false,
             indicator: indicator.clone()
         }
-        
-        if (w.localStorage.getItem(task.id)) {
-            var t = parseInt(w.localStorage.getItem(task.id));
-            task.time = t;
-            task.indicator.text(time_format(t));
+
+        var elapsed = GM_getValue(task.id);
+        if (elapsed) {
+            task.time = elapsed;
+            task.indicator.text(time_format(elapsed));
         }
                                   
         tasks.push(task);
